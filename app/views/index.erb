@@ -1,0 +1,15 @@
+<h1>Bienvenido a Mi Bitly!</h1>
+<p>Este es un una tabla con Urls reducidos</p>
+<form id="url_shortner" action="/urls" method="post">
+	Acorta tu URL: Por favor utiliza http:// o https://
+	<br>
+	<input type="text" name="user_input">
+	<input type="submit" value="Submit">
+</form>
+<% @show.each do |print_all|%>
+<ul>
+ <li>
+ 	<%= print_all.long_url %><p>  </p><a href="/<%= print_all.id %>"><%= print_all.short_url %></a><p>  </p><%=print_all.click_count %>
+ </li>
+</ul>
+<% end %>

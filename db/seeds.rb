@@ -1,0 +1,5 @@
+url1 = Url.create(long_url: "http://www.google.com", short_url: "abcd", click_count: 0)
+url2 = Url.create(long_url: "http://www.nfl.com", short_url: "yrtg", click_count: 0)
+url3 = Url.create(long_url: "http://www.vikings.com", short_url: "jfbc", click_count: 0)
+url4 = Url.create(long_url: "http://www.facebook.com", short_url: "iejf", click_count: 0)
+url5 = Url.create(long_url: "http://www.bootstrap.com", short_url: "pdok", click_count: 0)
